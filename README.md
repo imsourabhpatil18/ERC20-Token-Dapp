@@ -11,8 +11,11 @@ This Ethereum smart contract enhances the Sourabh Token (SP) by incorporating de
 
 
 **1)Token Minting/Burning**: Owner can mint and burn tokens, maintaining total token supply.
+<br>
 **2)Proposal Creation**: Owner can create proposals, specifying proposal details.
+<br>
 **3)Voting**: Token holders can vote on proposals based on their token holdings.
+<br>
 **4)Execution**: Owner can execute proposals that meet quorum requirements.
 <br>
 
