@@ -1,0 +1,85 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5eded;
+  color: #151212;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./images/ethImage.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.font {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.label0 {
+  margin: 20px 0;
+}
+
+.innerBox {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Add additional styles as needed */
+
+/* for walletConnect */
+
+.wallet-connect-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 15px;
+  background: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-connect-container h2 {
+  font-size: 1.5em;
+  color: #0f0c0c;
+  margin-bottom: 10px;
+}
+
+.wallet-connect-container h3 {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.wallet-connect-container button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.wallet-connect-container button:hover {
+  background-color: #45a049;
+}
