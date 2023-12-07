@@ -1,5 +1,8 @@
-Sourabh Token Governance Smart Contract
+**Sourabh Token Governance Smart Contract**
 <br>
+
+
+
 This Ethereum smart contract enhances the Sourabh Token (SP) by incorporating decentralized governance features. Token holders can propose, vote, and participate in decision-making.
 <br>
 
