@@ -46,4 +46,5 @@ Token holders participate in governance by voting on proposals.
 ***Owner Responsibilities:**
 <br>
 1)Mint and burn tokens.
+<br>
 2)Create and execute proposals.
