@@ -30,7 +30,7 @@ contract SourabhToken is ERC20,Ownable {
    
 
 constructor(uint _voteTime,uint _quorum) ERC20("Sourabh","SP") Ownable(msg.sender){
-    _mint(msg.sender, 1000 );
+    _mint(msg.sender, 1000000000000000000000 );
     tokenHolders.push(msg.sender); //add the owner as token holder in tokenHolderss array
     voteTime= _voteTime;
     quorum = _quorum;

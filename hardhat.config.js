@@ -19,6 +19,7 @@ module.exports = {
     sepolia: {
       url: "https://eth-sepolia.g.alchemy.com/v2/L391508YD70GVdSZaKD2eEfbag12Jm8x",
       accounts: [SEPOLIA_PRIVATE_KEY],
+      chainId: 11155111,
     },
   },
 };

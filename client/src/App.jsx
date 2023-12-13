@@ -19,16 +19,18 @@ function App() {
 
   useEffect(() => {
     async function init() {
-      const provider = new Web3.providers.HttpProvider(
+      // const provider = new Web3.providers.HttpProvider(
+      // "https://eth-sepolia.g.alchemy.com/v2/L391508YD70GVdSZaKD2eEfbag12Jm8x"
+      // );
+
+      const web3 = new Web3(
         "https://eth-sepolia.g.alchemy.com/v2/L391508YD70GVdSZaKD2eEfbag12Jm8x"
       );
-
-      const web3 = new Web3(provider);
       const contractABI = SourabhToken.abi;
 
       const contract = new web3.eth.Contract(
         contractABI,
-        "0x0FE0D2FbdB8e9797822C48256A4aaab3E83ACCd9"
+        "0xC74161d1426e3a4AD4C6725129955fa544AEE282"
       );
 
       setState({ web3: web3, contract: contract });
